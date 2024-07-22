@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Docplanner Homepage Replica</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <img src="https://docplanner-gomycode.onrender.com/logos/logo.png" alt="Docplanner Logo">
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">Departments</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <h1>Make the healthcare experience more human</h1>
+      <p>Docplanner is the leading digital healthcare platform that connects patients and healthcare professionals.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <h2>Our services</h2>
+      <div class="service-item">
+        <img src="service-1.png" alt="Service 1">
+        <h3>For patients</h3>
+        <p>Find a doctor, book a visit and solve any health-related doubt</p>
+      </div>
+      <div class="service-item">
+        <img src="service-2.png" alt="Service 2">
+        <h3>For doctors</h3>
+        <p>Save time managing visits and cut no-shows by half</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Locations Section -->
+  <section id="locations">
+    <div class="container">
+      <h2>Our locations</h2>
+      <div class="location-item">
+        <img src="location-1.jpg" alt="Location 1">
+        <h3>Warsaw</h3>
+        <button>See openings</button>
+      </div>
+      <div class="location-item">
+        <img src="location-2.jpg" alt="Location 2">
+        <h3>Barcelona</h3>
+        <button>See openings</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners Section -->
+  <section id="partners">
+    <div class="container">
+      <h2>Our partners</h2>
+      <div class="partner-list">
+        <img src="" alt="Partner">
+        <img src="" alt="Partner 2">
+        <img src="" alt="Partner 3">
+        <img src="" alt="Partner 4">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Docplanner. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+echo "# rayhanaa" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rayhan959/rayhanaa/new/main.git
